@@ -34,28 +34,29 @@
 
 /* Size of the Data Set */
 #define SIZE (40)
-
-void main() {
-
-  unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
-                              114, 89,   45,  76, 123,  87,  25,  23,
-                              200, 122, 150, 90,   92,  87, 177, 244,
-                              201,   6,  12,  60,   8,   2,   5,  67,
-                                7,  87, 250, 230,  99,   3, 100,  90};
-
-  /* Other Variable Declarations Go Here */
-  /* Statistics and Printing Functions Go Here */
-unsigned char max, min, mean, median;
-
-print_array((unsigned char*)&test, SIZE);
-max=find_maximum((unsigned char*)&test, SIZE);
-min=find_minimum((unsigned char*)&test, SIZE);
-mean=find_mean((unsigned char*)&test, SIZE);
-median=find_median((unsigned char*)&test, SIZE);
-print_statistics(max, min, mean,median);
-print_array((unsigned char*)&test, SIZE);
-}
-
+/**
+ *void main() {
+ *
+ *  unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
+ *                              114, 89,   45,  76, 123,  87,  25,  23,
+ *                              200, 122, 150, 90,   92,  87, 177, 244,
+ *                              201,   6,  12,  60,   8,   2,   5,  67,
+ *                                7,  87, 250, 230,  99,   3, 100,  90};
+ *
+ *  Other Variable Declarations Go Here
+ *   Statistics and Printing Functions Go Here 
+ *unsigned char max, min, mean, median;
+ *#ifdef VERBOSE
+ *print_array((unsigned char*)&test, SIZE);
+ *#endif
+ *max=find_maximum((unsigned char*)&test, SIZE);
+ *min=find_minimum((unsigned char*)&test, SIZE);
+ *mean=find_mean((unsigned char*)&test, SIZE);
+ *median=find_median((unsigned char*)&test, SIZE);
+ *print_statistics(max, min, mean,median);
+ *}
+ *
+*/
 /* Add other Implementation File Code Here */
 
 
