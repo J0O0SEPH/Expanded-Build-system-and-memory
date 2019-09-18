@@ -1,19 +1,7 @@
-/******************************************************************************
- * Copyright (C) 2019 by Joseph Soliman 
- *
- * Redistribution, modification or use of this software in source or binary
- * forms is permitted as long as the files maintain this copyright. Users are 
- * permitted to modify this and use it to learn about the field of embedded
- * Author is  not liable for any misuse of this material. 
- *
- *****************************************************************************/
-#
 #ifndef __DATA_H__
 #define __DATA_H__
 
-
 #include <stdint.h>
-#include <stdlib.h>
 
 /**
  *Integer-to-ASCII needs to convert data from a standard integer type into an ASCII string.
