@@ -9,6 +9,7 @@ Memory manipulations
  - Execute and test application by simulating it on the host machine
 # Platform
 Build for MSP432 platform, and simulated in Linux environment for testing.
+
 **Build system:**
  - gcc
  - arm-none-eabi-gcc
